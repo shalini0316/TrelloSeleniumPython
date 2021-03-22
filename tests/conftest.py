@@ -13,18 +13,18 @@ def pytest_addoption(parser):
 def setup(request):
     global driver
     browser_name=request.config.getoption("browser_name")
-
-    driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe")
-    #elif browser_name == "firefox":
-       # driver = webdriver.Firefox(executable_path="C:\\geckodriver.exe")
-    #elif browser_name == "IE":
-    print("IE driver")
-    driver.get("https://trello.com/")
-    driver.maximize_window()
+    if browser_name == "chrome":
+        driver = webdriver.Chrome(executable_path="C:\\Users\\BLACKPEARL COMPUTERS\\PycharmProjects\\pythonProject\\PythonSelFramework\\TestData\\chromedriver.exe")
+    elif browser_name == "firefox":
+        driver = webdriver.Firefox(executable_path="C:\\geckodriver.exe")
+    elif browser_name == "IE":
+        print("IE driver")
+    #driver.get("https://trello.com/")
+    #driver.maximize_window()
 
     request.cls.driver = driver
     yield
-    #driver.close()
+    driver.close()
 
 
 @pytest.mark.hookwrapper

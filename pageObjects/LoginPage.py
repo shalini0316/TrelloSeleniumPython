@@ -8,13 +8,14 @@ class LoginPage:
     def __init__(self, driver):
         self.driver = driver
 
-    loginButton = (By.LINK_TEXT, "Log in")
+    loginButton = (By.XPATH, "//a[contains(text(),'Log')]")
     email = (By.ID, "user")
     password = (By.ID, "password")
     loginAtlassian = (By.ID, "login")
     submit = (By.ID, "login-submit")
     incorrectPassword = (By.XPATH, "//*[text()='Incorrect email address and / or password.']")
-
+    profile = (By.XPATH, "(//*[@title='shalini (shalini474)']/span)[1]")
+    logout = (By.XPATH, "//span[text()='Log out']")
 
 
     successMessage = (By.CSS_SELECTOR, "[class*='alert-success']")
@@ -52,9 +53,9 @@ class LoginPage:
     def validateIncorrectPassword(self):
         return self.driver.find_element(*LoginPage.incorrectPassword).is_displayed()
 
-    def decodePassword(self, password):
-        print(base64.b64decode(password))
 
-    def encodePassword(self, password):
-        print(base64.b64encode(password))
+    def clickProfile(self):
+        return self.driver.find_element(*LoginPage.profile).click()
 
+    def clickLogout(self):
+        return self.driver.find_element(*LoginPage.logout).click()

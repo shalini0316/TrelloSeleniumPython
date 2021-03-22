@@ -299,3 +299,208 @@
 2021-03-22 14:00:16,331 :INFO : test_e2e :........................................Test Case Completed..............................................
 2021-03-22 14:04:48,596 :INFO : test_e2e :........................................Test Case Started..............................................
 2021-03-22 14:07:42,873 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 15:22:40,605 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 15:23:26,486 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 15:28:51,188 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 15:28:59,814 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 15:29:00,969 :INFO : test_e2e :Email is entered
+2021-03-22 15:29:46,472 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 15:30:10,580 :INFO : test_e2e :None
+2021-03-22 15:30:31,617 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 15:30:32,004 :INFO : test_e2e :Email is entered
+2021-03-22 15:30:40,523 :INFO : test_e2e :Correct Password is entered
+2021-03-22 15:30:43,701 :INFO : test_e2e :Login button is clicked
+2021-03-22 15:31:12,747 :INFO : test_e2e :Add button is clicked
+2021-03-22 15:31:17,109 :INFO : test_e2e :Create Board button is clicked
+2021-03-22 15:31:21,905 :INFO : test_e2e :Title for new board is entered
+2021-03-22 15:31:25,192 :INFO : test_e2e :New Board is created
+2021-03-22 15:31:32,542 :INFO : test_e2e :4 new lists are created
+2021-03-22 15:57:03,162 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 15:57:18,273 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 15:57:18,976 :INFO : test_e2e :Email is entered
+2021-03-22 15:58:17,250 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 15:58:19,589 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 15:58:19,943 :INFO : test_e2e :Email is entered
+2021-03-22 15:58:31,846 :INFO : test_e2e :Correct Password is entered
+2021-03-22 15:58:35,085 :INFO : test_e2e :Login button is clicked
+2021-03-22 15:58:46,705 :INFO : test_e2e :Add button is clicked
+2021-03-22 15:58:49,870 :INFO : test_e2e :Create Board button is clicked
+2021-03-22 15:58:53,294 :INFO : test_e2e :Title for new board is entered
+2021-03-22 15:58:56,462 :INFO : test_e2e :New Board is created
+2021-03-22 16:47:28,486 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 16:47:32,835 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 16:48:49,921 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 16:48:52,515 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 16:48:52,861 :INFO : test_e2e :Email is entered
+2021-03-22 16:49:07,145 :INFO : test_e2e :Correct Password is entered
+2021-03-22 16:49:10,269 :INFO : test_e2e :Login button is clicked
+2021-03-22 16:49:22,691 :INFO : test_e2e :Add button is clicked
+2021-03-22 16:49:25,846 :INFO : test_e2e :Create Board button is clicked
+2021-03-22 16:49:29,728 :INFO : test_e2e :Title for new board is entered
+2021-03-22 16:49:33,062 :INFO : test_e2e :New Board is created
+2021-03-22 16:49:38,106 :INFO : test_e2e :4 new lists are created
+2021-03-22 16:50:05,401 :INFO : test_e2e :4 cards are created
+2021-03-22 16:50:16,371 :INFO : getCardNames :Card Name:Card 1
+2021-03-22 16:50:16,372 :INFO : getCardNames :Card Name:Card 2
+2021-03-22 16:50:16,388 :INFO : getCardNames :Card Name:Card 3
+2021-03-22 16:50:16,403 :INFO : getCardNames :Card Name:Card 4
+2021-03-22 16:50:26,535 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-22 16:50:36,757 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-22 16:50:46,830 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-22 16:51:03,170 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-22 16:52:53,130 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 16:52:55,145 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 16:52:55,468 :INFO : test_e2e :Email is entered
+2021-03-22 16:53:07,437 :INFO : test_e2e :Correct Password is entered
+2021-03-22 16:53:10,589 :INFO : test_e2e :Login button is clicked
+2021-03-22 16:53:20,845 :INFO : test_e2e :Add button is clicked
+2021-03-22 16:53:24,100 :INFO : test_e2e :Create Board button is clicked
+2021-03-22 16:53:27,516 :INFO : test_e2e :Title for new board is entered
+2021-03-22 16:53:30,815 :INFO : test_e2e :New Board is created
+2021-03-22 16:53:35,868 :INFO : test_e2e :4 new lists are created
+2021-03-22 16:53:45,932 :INFO : enterListName :Message: 
+
+2021-03-22 16:58:01,058 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 16:58:05,959 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 16:58:06,473 :INFO : test_e2e :Email is entered
+2021-03-22 16:58:17,696 :INFO : test_e2e :Correct Password is entered
+2021-03-22 16:58:20,868 :INFO : test_e2e :Login button is clicked
+2021-03-22 16:59:19,987 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 16:59:23,765 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 16:59:24,277 :INFO : test_e2e :Email is entered
+2021-03-22 16:59:40,330 :INFO : test_e2e :Correct Password is entered
+2021-03-22 16:59:43,502 :INFO : test_e2e :Login button is clicked
+2021-03-22 17:03:27,872 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:03:31,498 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:03:35,025 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:03:35,025 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:05:52,889 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:05:57,380 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:05:59,989 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:05:59,989 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:08:21,824 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:08:24,821 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:08:26,519 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:08:26,519 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:12:33,626 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:12:36,475 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:12:36,887 :INFO : test_e2e :Email is entered
+2021-03-22 17:13:14,927 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:13:18,261 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:13:18,812 :INFO : test_e2e :Email is entered
+2021-03-22 17:15:56,563 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:16:01,201 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:16:02,860 :INFO : test_e2e :Email is entered
+2021-03-22 17:16:17,817 :INFO : test_e2e :Correct Password is entered
+2021-03-22 17:16:20,983 :INFO : test_e2e :Login button is clicked
+2021-03-22 17:19:14,563 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:19:18,456 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:20:13,294 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:20:17,032 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:20:18,524 :INFO : test_e2e :Email is entered
+2021-03-22 17:20:36,652 :INFO : test_e2e :Correct Password is entered
+2021-03-22 17:20:39,993 :INFO : test_e2e :Login button is clicked
+2021-03-22 17:21:33,432 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:21:37,437 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:40:52,824 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:40:56,024 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:40:56,501 :INFO : test_e2e :Email is entered
+2021-03-22 17:41:09,812 :INFO : test_e2e :Correct Password is entered
+2021-03-22 17:41:10,810 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:41:10,810 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:41:58,589 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:42:02,396 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:42:02,864 :INFO : test_e2e :Email is entered
+2021-03-22 17:42:13,325 :INFO : test_e2e :Correct Password is entered
+2021-03-22 17:42:13,856 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:42:13,856 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:43:23,851 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:43:26,157 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:43:26,649 :INFO : test_e2e :Email is entered
+2021-03-22 17:43:38,615 :INFO : test_e2e :Correct Password is entered
+2021-03-22 17:43:41,807 :INFO : test_e2e :Login button is clicked
+2021-03-22 17:43:44,895 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:43:44,895 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:44:35,956 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:44:38,466 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:44:38,972 :INFO : test_e2e :Email is entered
+2021-03-22 17:44:49,243 :INFO : test_e2e :Correct Password is entered
+2021-03-22 17:44:52,424 :INFO : test_e2e :Login button is clicked
+2021-03-22 17:44:55,481 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:44:55,481 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:54:06,861 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:54:09,597 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:54:10,160 :INFO : test_e2e :Email is entered
+2021-03-22 17:54:21,105 :INFO : test_e2e :Correct Password is entered
+2021-03-22 17:54:24,256 :INFO : test_e2e :Login button is clicked
+2021-03-22 17:54:42,672 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:54:42,672 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:55:58,560 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:56:01,584 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:56:02,085 :INFO : test_e2e :Email is entered
+2021-03-22 17:56:25,558 :INFO : test_e2e :Correct Password is entered
+2021-03-22 17:56:28,855 :INFO : test_e2e :Login button is clicked
+2021-03-22 17:59:43,229 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 17:59:45,674 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 17:59:46,158 :INFO : test_e2e :Email is entered
+2021-03-22 18:00:03,335 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:00:06,529 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:01:55,138 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 18:01:58,435 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 18:01:59,314 :INFO : test_e2e :Email is entered
+2021-03-22 18:02:10,259 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:02:13,652 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:04:23,649 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 18:04:26,353 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 18:04:26,830 :INFO : test_e2e :Email is entered
+2021-03-22 18:04:37,253 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:04:40,430 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:06:32,022 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 18:06:35,311 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 18:06:35,771 :INFO : test_e2e :Email is entered
+2021-03-22 18:06:49,552 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:06:52,776 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:07:31,383 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 18:07:31,383 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 18:07:34,934 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 18:07:34,934 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 18:07:35,347 :INFO : test_e2e :Email is entered
+2021-03-22 18:07:35,347 :INFO : test_e2e :Email is entered
+2021-03-22 18:07:46,731 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:07:46,731 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:07:49,884 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:07:49,884 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:08:52,142 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 18:08:56,187 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 18:08:57,571 :INFO : test_e2e :Email is entered
+2021-03-22 18:09:09,561 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:09:12,920 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:09:48,678 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 18:09:48,678 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 18:09:51,099 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 18:09:51,099 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 18:09:51,558 :INFO : test_e2e :Email is entered
+2021-03-22 18:09:51,558 :INFO : test_e2e :Email is entered
+2021-03-22 18:10:03,765 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:10:03,765 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:10:07,062 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:10:07,062 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:20:30,531 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 18:20:32,764 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 18:20:33,195 :INFO : test_e2e :Email is entered
+2021-03-22 18:20:43,690 :INFO : test_e2e :Correct Password is entered
+2021-03-22 18:20:46,902 :INFO : test_e2e :Login button is clicked
+2021-03-22 18:20:59,296 :INFO : test_e2e :Add button is clicked
+2021-03-22 18:21:02,451 :INFO : test_e2e :Create Board button is clicked
+2021-03-22 18:21:06,040 :INFO : test_e2e :Title for new board is entered
+2021-03-22 18:21:09,326 :INFO : test_e2e :New Board is created
+2021-03-22 18:21:14,359 :INFO : test_e2e :4 new lists are created
+2021-03-22 18:21:41,910 :INFO : test_e2e :4 cards are created
+2021-03-22 18:21:52,909 :INFO : getCardNames :Card Name:Card 1
+2021-03-22 18:21:52,960 :INFO : getCardNames :Card Name:Card 2
+2021-03-22 18:21:52,979 :INFO : getCardNames :Card Name:Card 3
+2021-03-22 18:21:53,003 :INFO : getCardNames :Card Name:Card 4
+2021-03-22 18:22:03,251 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-22 18:22:13,364 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-22 18:22:23,508 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-22 18:22:39,929 :INFO : test_e2e :........................................Test Case Completed..............................................

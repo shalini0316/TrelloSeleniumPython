@@ -1,4 +1,5 @@
 import pytest
+from easygui import passwordbox
 from selenium import webdriver
 import time
 
@@ -15,12 +16,12 @@ from TestData.HomePageData import HomePageData
 class TestOne(BaseClass):
 
     def test_e2e(self,getData):
-
+        self.driver.get("https://trello.com/")
+        self.driver.maximize_window()
         log = self.getLogger()
         log.info("........................................Test Case Started..............................................")
         #Login in to application
         loginPage = LoginPage(self.driver)
-        print(loginPage.encodePassword("test1234"))
         loginPage.clickLoginButton()
          # Title is verified
         title=loginPage.getTitle()
@@ -33,14 +34,15 @@ class TestOne(BaseClass):
         log.info("Email is entered")
         loginPage.clickLoginAtlassian()
         time.sleep(3)
-        #loginPage.encodePassword("test1234")
         #loginPage.enterPassword("test123")
         #loginPage.clickSubmit()
         #time.sleep(3)
         #loginPage.validateIncorrectPassword()
         #log.info("InCorrect Password is entered and validated")
         #time.sleep(3)
-        loginPage.enterPassword(getData["Password"])
+        password = passwordbox("PASSWORD:")
+        time.sleep(3)
+        loginPage.enterPassword(password)
         log.info("Correct Password is entered")
         loginPage.clickSubmit()
         time.sleep(3)
@@ -149,7 +151,11 @@ class TestOne(BaseClass):
         dashboard.clickCloseBtn()
         log.info( "........................................Test Case Completed..............................................")
 
-    @pytest.fixture(params=HomePageData.getTestData())
+        loginPage.clickProfile()
+        loginPage.clickLogout()
+        loginPage.clickLogout()
+
+    @pytest.fixture(params=HomePageData.getTestData("Testcase1"))
     def getData(self, request):
         return request.param
 
