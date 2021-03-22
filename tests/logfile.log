@@ -212,3 +212,90 @@
 2021-03-21 17:41:11,868 :INFO : getCardNames :Card Name:Card 2
 2021-03-21 17:41:11,875 :INFO : getCardNames :Card Name:Card 3
 2021-03-21 17:41:11,891 :INFO : getCardNames :Card Name:Card 4
+2021-03-22 13:23:26,803 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 13:23:28,977 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 13:25:51,287 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 13:25:54,143 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 13:25:55,653 :INFO : test_e2e :Email is entered
+2021-03-22 13:26:04,020 :INFO : test_e2e :Correct Password is entered
+2021-03-22 13:26:07,191 :INFO : test_e2e :Login button is clicked
+2021-03-22 13:26:10,258 :INFO : clickAddButton :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id='header-create-menu-button']"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-22 13:26:10,258 :INFO : test_e2e :Add button is clicked
+2021-03-22 13:30:04,334 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 13:30:09,197 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 13:30:09,529 :INFO : test_e2e :Email is entered
+2021-03-22 13:30:18,355 :INFO : test_e2e :Correct Password is entered
+2021-03-22 13:30:21,586 :INFO : test_e2e :Login button is clicked
+2021-03-22 13:30:38,378 :INFO : test_e2e :Add button is clicked
+2021-03-22 13:30:41,502 :INFO : test_e2e :Create Board button is clicked
+2021-03-22 13:30:44,936 :INFO : test_e2e :Title for new board is entered
+2021-03-22 13:30:48,154 :INFO : test_e2e :New Board is created
+2021-03-22 13:30:54,385 :INFO : test_e2e :4 new lists are created
+2021-03-22 13:31:24,899 :INFO : test_e2e :4 cards are created
+2021-03-22 13:31:35,726 :INFO : getCardNames :Card Name:Card 1
+2021-03-22 13:31:35,742 :INFO : getCardNames :Card Name:Card 2
+2021-03-22 13:31:35,757 :INFO : getCardNames :Card Name:Card 3
+2021-03-22 13:31:35,773 :INFO : getCardNames :Card Name:Card 4
+2021-03-22 13:31:45,840 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-22 13:31:55,917 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-22 13:32:05,981 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-22 13:32:22,125 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-22 13:34:55,347 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 13:34:58,147 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 13:34:58,513 :INFO : test_e2e :Email is entered
+2021-03-22 13:35:09,271 :INFO : test_e2e :Correct Password is entered
+2021-03-22 13:35:12,447 :INFO : test_e2e :Login button is clicked
+2021-03-22 13:35:25,003 :INFO : test_e2e :Add button is clicked
+2021-03-22 13:35:28,129 :INFO : test_e2e :Create Board button is clicked
+2021-03-22 13:35:31,394 :INFO : test_e2e :Title for new board is entered
+2021-03-22 13:35:34,565 :INFO : test_e2e :New Board is created
+2021-03-22 13:35:40,230 :INFO : test_e2e :4 new lists are created
+2021-03-22 13:36:07,411 :INFO : test_e2e :4 cards are created
+2021-03-22 13:36:18,176 :INFO : getCardNames :Card Name:Card 1
+2021-03-22 13:36:18,208 :INFO : getCardNames :Card Name:Card 2
+2021-03-22 13:36:18,223 :INFO : getCardNames :Card Name:Card 3
+2021-03-22 13:36:18,239 :INFO : getCardNames :Card Name:Card 4
+2021-03-22 13:36:28,309 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-22 13:36:38,442 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-22 13:36:48,487 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-22 13:37:04,566 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-22 13:42:50,541 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 13:42:57,338 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 13:42:57,670 :INFO : test_e2e :Email is entered
+2021-03-22 13:43:03,228 :INFO : test_e2e :Correct Password is entered
+2021-03-22 13:43:06,385 :INFO : test_e2e :Login button is clicked
+2021-03-22 13:43:19,321 :INFO : test_e2e :Add button is clicked
+2021-03-22 13:43:22,446 :INFO : test_e2e :Create Board button is clicked
+2021-03-22 13:43:25,647 :INFO : test_e2e :Title for new board is entered
+2021-03-22 13:48:11,391 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 13:48:14,265 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 13:48:14,588 :INFO : test_e2e :Email is entered
+2021-03-22 13:48:19,837 :INFO : test_e2e :Correct Password is entered
+2021-03-22 13:48:22,985 :INFO : test_e2e :Login button is clicked
+2021-03-22 13:48:26,076 :INFO : clickAddButton :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id='header-create-menu-button']"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-22 13:48:26,076 :INFO : test_e2e :Add button is clicked
+2021-03-22 13:58:11,368 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 13:58:15,235 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-22 13:58:15,579 :INFO : test_e2e :Email is entered
+2021-03-22 13:58:22,194 :INFO : test_e2e :Correct Password is entered
+2021-03-22 13:58:25,371 :INFO : test_e2e :Login button is clicked
+2021-03-22 13:58:37,136 :INFO : test_e2e :Add button is clicked
+2021-03-22 13:58:40,279 :INFO : test_e2e :Create Board button is clicked
+2021-03-22 13:58:43,623 :INFO : test_e2e :Title for new board is entered
+2021-03-22 13:58:46,759 :INFO : test_e2e :New Board is created
+2021-03-22 13:58:51,779 :INFO : test_e2e :4 new lists are created
+2021-03-22 13:59:18,935 :INFO : test_e2e :4 cards are created
+2021-03-22 13:59:29,636 :INFO : getCardNames :Card Name:Card 1
+2021-03-22 13:59:29,651 :INFO : getCardNames :Card Name:Card 2
+2021-03-22 13:59:29,674 :INFO : getCardNames :Card Name:Card 3
+2021-03-22 13:59:29,689 :INFO : getCardNames :Card Name:Card 4
+2021-03-22 13:59:39,770 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-22 13:59:49,859 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-22 13:59:59,853 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-22 14:00:16,331 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-22 14:04:48,596 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-22 14:07:42,873 :INFO : test_e2e :........................................Test Case Started..............................................

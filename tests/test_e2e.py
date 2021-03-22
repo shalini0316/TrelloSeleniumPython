@@ -9,16 +9,18 @@ from selenium.webdriver.support import expected_conditions as EC
 from pageObjects.DashboardPage import DashboardPage
 from pageObjects.LoginPage import LoginPage
 from utilities.BaseClass import BaseClass
+from TestData.HomePageData import HomePageData
 
 
 class TestOne(BaseClass):
 
-    def test_e2e(self):
+    def test_e2e(self,getData):
 
         log = self.getLogger()
         log.info("........................................Test Case Started..............................................")
         #Login in to application
         loginPage = LoginPage(self.driver)
+        print(loginPage.encodePassword("test1234"))
         loginPage.clickLoginButton()
          # Title is verified
         title=loginPage.getTitle()
@@ -27,7 +29,7 @@ class TestOne(BaseClass):
         self.isLabelExist("Continue with Google")
         self.isLabelExist("Continue with Microsoft")
         self.isLabelExist("Continue with Apple")
-        loginPage.enterEmail("shalini.jayakumar03@gmail.com")
+        loginPage.enterEmail(getData["Email"])
         log.info("Email is entered")
         loginPage.clickLoginAtlassian()
         time.sleep(3)
@@ -38,7 +40,7 @@ class TestOne(BaseClass):
         #loginPage.validateIncorrectPassword()
         #log.info("InCorrect Password is entered and validated")
         #time.sleep(3)
-        loginPage.enterPassword("test1234")
+        loginPage.enterPassword(getData["Password"])
         log.info("Correct Password is entered")
         loginPage.clickSubmit()
         time.sleep(3)
@@ -56,7 +58,7 @@ class TestOne(BaseClass):
         dashboard.clickCreateBoard()
         log.info("Create Board button is clicked")
         time.sleep(3)
-        dashboard.addBoardTitle("tst2")
+        dashboard.addBoardTitle(getData["BoardName"])
         log.info("Title for new board is entered")
         time.sleep(3)
         dashboard.clickCreateBoard()
@@ -68,19 +70,19 @@ class TestOne(BaseClass):
 
         #Create  Lists
         log.info("4 new lists are created")
-        dashboard.enterListName("Not Started")
+        dashboard.enterListName(getData["List1"])
         time.sleep(5)
         dashboard.clickAddListBtn()
         time.sleep(3)
-        dashboard.enterListName("In Progress")
+        dashboard.enterListName(getData["List2"])
         time.sleep(3)
         dashboard.clickAddListBtn()
         time.sleep(3)
-        dashboard.enterListName("QA")
+        dashboard.enterListName(getData["List3"])
         time.sleep(3)
         dashboard.clickAddListBtn()
         time.sleep(3)
-        dashboard.enterListName("Done")
+        dashboard.enterListName(getData["List4"])
         time.sleep(3)
         dashboard.clickAddListBtn()
         time.sleep(3)
@@ -89,13 +91,13 @@ class TestOne(BaseClass):
         log.info("4 cards are created")
         dashboard.clickAddCard()
         time.sleep(3)
-        dashboard.enterCardName("Card 1")
+        dashboard.enterCardName(getData["Card1"])
         dashboard.clickAddCardBtn()
-        dashboard.enterCardName("Card 2")
+        dashboard.enterCardName(getData["Card2"])
         dashboard.clickAddCardBtn()
-        dashboard.enterCardName("Card 3")
+        dashboard.enterCardName(getData["Card3"])
         dashboard.clickAddCardBtn()
-        dashboard.enterCardName("Card 4")
+        dashboard.enterCardName(getData["Card4"])
         dashboard.clickAddCardBtn()
         time.sleep(3)
         dashboard.clickCancelButton()
@@ -103,20 +105,20 @@ class TestOne(BaseClass):
         dashboard.getCardNames()
 
         #Move card 2 to In Progress
-        dashboard.rightClickCard("Card 2")
+        dashboard.rightClickCard(getData["Card2"])
         time.sleep(3)
         dashboard.clickMoveLabel()
-        dashboard.selectListOptionByText("In Progress")
+        dashboard.selectListOptionByText(getData["List2"])
         time.sleep(3)
         dashboard.clickMoveButton()
         time.sleep(3)
         dashboard.card2MoveToInProgress()
 
         # Move card 3 to QA
-        dashboard.rightClickCard("Card 3")
+        dashboard.rightClickCard(getData["Card3"])
         time.sleep(3)
         dashboard.clickMoveLabel()
-        dashboard.selectListOptionByText("QA")
+        dashboard.selectListOptionByText(getData["List3"])
         time.sleep(3)
         dashboard.clickMoveButton()
         time.sleep(3)
@@ -124,10 +126,10 @@ class TestOne(BaseClass):
 
 
          #Move card 2 to QA
-        dashboard.rightClickCard("Card 2")
+        dashboard.rightClickCard(getData["Card2"])
         time.sleep(3)
         dashboard.clickMoveLabel()
-        dashboard.selectListOptionByText("QA")
+        dashboard.selectListOptionByText(getData["List3"])
         time.sleep(3)
         dashboard.clickMoveButton()
         time.sleep(3)
@@ -141,11 +143,13 @@ class TestOne(BaseClass):
         time.sleep(3)
         dashboard.clickName()
         time.sleep(3)
-        dashboard.enterComments("I am done")
+        dashboard.enterComments(getData["Comments"])
         dashboard.clickSaveBtn()
         time.sleep(3)
         dashboard.clickCloseBtn()
         log.info( "........................................Test Case Completed..............................................")
 
-
+    @pytest.fixture(params=HomePageData.getTestData())
+    def getData(self, request):
+        return request.param
 
