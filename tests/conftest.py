@@ -1,6 +1,9 @@
+import os
+
 import pytest
 from selenium import webdriver
 import time
+import win32com.client as win32
 driver = None
 
 def pytest_addoption(parser):

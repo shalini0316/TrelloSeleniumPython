@@ -10,14 +10,19 @@ from selenium.webdriver.support import expected_conditions as EC
 from pageObjects.DashboardPage import DashboardPage
 from pageObjects.LoginPage import LoginPage
 from utilities.BaseClass import BaseClass
+from utilities.Screenshot import SS
 from TestData.HomePageData import HomePageData
 
-
+count = 0
 class TestOne(BaseClass):
 
     def test_e2e(self,getData):
+
         self.driver.get("https://trello.com/")
+        time.sleep(3)
         self.driver.maximize_window()
+        time.sleep(3)
+        ss = SS(self.driver)
         log = self.getLogger()
         log.info("........................................Test Case Started..............................................")
         #Login in to application
@@ -34,16 +39,19 @@ class TestOne(BaseClass):
         log.info("Email is entered")
         loginPage.clickLoginAtlassian()
         time.sleep(3)
+
         #loginPage.enterPassword("test123")
         #loginPage.clickSubmit()
         #time.sleep(3)
         #loginPage.validateIncorrectPassword()
         #log.info("InCorrect Password is entered and validated")
         #time.sleep(3)
+
         password = passwordbox("PASSWORD:")
         time.sleep(3)
         loginPage.enterPassword(password)
         log.info("Correct Password is entered")
+        ss.ScreenShot("login.png")
         loginPage.clickSubmit()
         time.sleep(3)
         log.info("Login button is clicked")
@@ -52,14 +60,17 @@ class TestOne(BaseClass):
 
 
         #Create a new board
+        ss.ScreenShot("dashboard.png")
         dashboard = DashboardPage(self.driver)
         dashboard.page_has_loaded()
         dashboard.clickAddButton()
         log.info("Add button is clicked")
         time.sleep(3)
+        ss.ScreenShot("addBoard.png")
         dashboard.clickCreateBoard()
         log.info("Create Board button is clicked")
         time.sleep(3)
+        ss.ScreenShot("createBoard.png")
         dashboard.addBoardTitle(getData["BoardName"])
         log.info("Title for new board is entered")
         time.sleep(3)
@@ -88,6 +99,7 @@ class TestOne(BaseClass):
         time.sleep(3)
         dashboard.clickAddListBtn()
         time.sleep(3)
+        ss.ScreenShot("addList.png")
 
         #Create 4 Cards
         log.info("4 cards are created")
@@ -104,6 +116,7 @@ class TestOne(BaseClass):
         time.sleep(3)
         dashboard.clickCancelButton()
         time.sleep(3)
+        ss.ScreenShot("cardName.png")
         dashboard.getCardNames()
 
         #Move card 2 to In Progress
@@ -149,13 +162,15 @@ class TestOne(BaseClass):
         dashboard.clickSaveBtn()
         time.sleep(3)
         dashboard.clickCloseBtn()
+        ss.ScreenShot("Rotation.png")
         log.info( "........................................Test Case Completed..............................................")
 
         loginPage.clickProfile()
         loginPage.clickLogout()
         loginPage.clickLogout()
-
-    @pytest.fixture(params=HomePageData.getTestData("Testcase1"))
+        ss.ScreenShot("logout.png")
+        ss.writeDoc(getData["TestCase"])
+    @pytest.fixture(params=HomePageData.getTestData())
     def getData(self, request):
         return request.param
 

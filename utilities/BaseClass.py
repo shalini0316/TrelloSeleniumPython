@@ -8,6 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 
 
+
+
 @pytest.mark.usefixtures("setup")
 class BaseClass:
 
@@ -39,3 +41,4 @@ class BaseClass:
             EC.presence_of_element_located((By.XPATH, "//*[text()='"+label+"']")))
         print(element.text)
         assert  element.is_displayed()
+
