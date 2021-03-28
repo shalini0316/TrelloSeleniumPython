@@ -45,6 +45,8 @@ class DashboardPage(BaseClass):
     card2QA = (By.XPATH, "//span[text()='Card 3']/ancestor::div[@class='js-list list-wrapper']//h2[text()='QA']")
     card2InProgress = (By.XPATH, "//span[text()='Card 2']/ancestor::div[@class='js-list list-wrapper']//h2[text()='In Progress']")
     cardNames= (By.XPATH, "//*[@class='list-card-title js-card-name']")
+    listNames = (By.XPATH, "//h2[@class='list-header-name-assist js-list-name-assist']/following-sibling::textarea")
+    labels = (By.XPATH, "//span[@class='quick-card-editor-buttons-item-text']")
     def page_has_loaded(self):
         log = self.getLogger()
         try:
@@ -63,6 +65,7 @@ class DashboardPage(BaseClass):
     def clickAddButton(self):
         log = self.getLogger()
         try:
+            log.info("Add button is clicked")
             return self.driver.find_element(*DashboardPage.addButton).click()
 
         except NoSuchElementException as ex:
@@ -80,6 +83,7 @@ class DashboardPage(BaseClass):
     def clickCreateBoard(self):
         log = self.getLogger()
         try:
+            log.info("Create Board button is clicked")
             return self.driver.find_element(*DashboardPage.createboard).click()
 
         except TimeoutException as ex:
@@ -95,6 +99,7 @@ class DashboardPage(BaseClass):
     def addBoardTitle(self,text):
         log = self.getLogger()
         try:
+            log.info("Board title is entered:"+text)
             return self.driver.find_element(*DashboardPage.boardTitle).send_keys(text)
 
         except TimeoutException as ex:
@@ -111,6 +116,7 @@ class DashboardPage(BaseClass):
     def clickAddListBtn(self):
         log = self.getLogger()
         try:
+            log.info("Add list button is clicked")
             return self.driver.find_element(*DashboardPage.addListBtn).click()
 
         except TimeoutException as ex:
@@ -141,6 +147,7 @@ class DashboardPage(BaseClass):
     def clickAddCard(self):
         log = self.getLogger()
         try:
+            log.info("Add card button is clicked")
             return self.driver.find_element(*DashboardPage.addCard).click()
 
         except TimeoutException as ex:
@@ -156,6 +163,7 @@ class DashboardPage(BaseClass):
     def enterListName(self,text):
         log = self.getLogger()
         try:
+            log.info("List name is entered"+text)
             enterList = ui.WebDriverWait(self.driver, 10).until(
                 EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Enter list title…']")))
             return enterList.send_keys(text)
@@ -190,6 +198,7 @@ class DashboardPage(BaseClass):
     def enterCardName(self,text):
         log = self.getLogger()
         try:
+            log.info("Cardname is entered:"+text)
             return self.driver.find_element(*DashboardPage.enterCard).send_keys(text)
 
         except TimeoutException as ex:
@@ -205,6 +214,7 @@ class DashboardPage(BaseClass):
     def rightClickCard(self,label):
         log = self.getLogger()
         try:
+            log.info(label+"is right clicked")
             source = self.driver.find_element_by_xpath("//span[text()='"+label+"']")
             # action chain object
             action = ActionChains(self.driver)
@@ -316,10 +326,26 @@ class DashboardPage(BaseClass):
         except InvalidSelectorException as ex:
             log.info(ex)
 
+    def validateLabels(self):
+        log = self.getLogger()
+        try:
+            for el in self.driver.find_elements(*DashboardPage.labels):
+                log.info("Label Name:" + el.text)
+
+        except TimeoutException as ex:
+            log.info(ex)
+        except StaleElementReferenceException as ex:
+            log.info(ex)
+        except InvalidElementStateException as ex:
+            log.info(ex)
+        except InvalidSelectorException as ex:
+            log.info(ex)
+
 
     def clickMoveLabel(self):
         log = self.getLogger()
         try:
+            log.info("Move label is clicked")
             return self.driver.find_element(*DashboardPage.moveLabel).click()
 
         except TimeoutException as ex:
@@ -350,6 +376,7 @@ class DashboardPage(BaseClass):
     def selectListOptionByText(self,text):
         log = self.getLogger()
         try:
+            log.info("Value selected from list dropdown:"+text)
             select = Select(self.driver.find_element_by_xpath("//*[@class='js-select-list']"))
             select.select_by_visible_text(text)
 
@@ -368,6 +395,7 @@ class DashboardPage(BaseClass):
     def clickCard1(self):
         log = self.getLogger()
         try:
+            log.info("Card1 is clicked")
             return self.driver.find_element(*DashboardPage.card1).click()
 
         except TimeoutException as ex:
@@ -382,6 +410,7 @@ class DashboardPage(BaseClass):
     def clickMembers(self):
         log = self.getLogger()
         try:
+            log.info("Member is clicked")
             return self.driver.find_element(*DashboardPage.members).click()
 
         except TimeoutException as ex:
@@ -396,6 +425,7 @@ class DashboardPage(BaseClass):
     def clickName(self):
         log = self.getLogger()
         try:
+            log.info("name is clicked")
             return self.driver.find_element(*DashboardPage.members).click()
 
         except TimeoutException as ex:
@@ -410,6 +440,7 @@ class DashboardPage(BaseClass):
     def enterComments(self, comment):
         log = self.getLogger()
         try:
+            log.info("Comments is entered:"+comment)
             return self.driver.find_element(*DashboardPage.comment).send_keys(comment)
 
         except TimeoutException as ex:
@@ -424,6 +455,7 @@ class DashboardPage(BaseClass):
     def clickSaveBtn(self):
         log = self.getLogger()
         try:
+            log.info("Save button is clicked")
             return self.driver.find_element(*DashboardPage.saveBtn).click()
 
         except TimeoutException as ex:
@@ -438,6 +470,7 @@ class DashboardPage(BaseClass):
     def clickCloseBtn(self):
         log = self.getLogger()
         try:
+            log.info("Close button is clicked")
             return self.driver.find_element(*DashboardPage.closeBtn).click()
 
         except TimeoutException as ex:
@@ -455,6 +488,21 @@ class DashboardPage(BaseClass):
         try:
              for el in self.driver.find_elements(*DashboardPage.cardNames):
                  log.info("Card Name:"+el.text)
+
+        except TimeoutException as ex:
+            log.info(ex)
+        except StaleElementReferenceException as ex:
+            log.info(ex)
+        except InvalidElementStateException as ex:
+            log.info(ex)
+        except InvalidSelectorException as ex:
+            log.info(ex)
+
+    def getListNames(self):
+        log = self.getLogger()
+        try:
+             for el in self.driver.find_elements(*DashboardPage.listNames):
+                 log.info("List Name:"+el.text)
 
         except TimeoutException as ex:
             log.info(ex)

@@ -1,0 +1,29 @@
+2021-03-27 15:10:26,291 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 15:10:29,474 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 15:10:29,915 :INFO : test_e2e :Email is entered
+2021-03-27 15:10:43,241 :INFO : test_e2e :Correct Password is entered
+2021-03-27 15:10:46,755 :INFO : test_e2e :Login button is clicked
+2021-03-27 15:11:01,556 :INFO : test_e2e :Add button is clicked
+2021-03-27 15:11:05,108 :INFO : test_e2e :Create Board button is clicked
+2021-03-27 15:11:09,066 :INFO : test_e2e :Title for new board is entered
+2021-03-27 15:32:18,208 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 15:34:38,618 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 15:34:52,587 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 15:34:53,818 :INFO : test_e2e :Email is entered
+2021-03-27 15:35:08,271 :INFO : test_e2e :Correct Password is entered
+2021-03-27 15:35:11,845 :INFO : test_e2e :Login button is clicked
+2021-03-27 15:35:34,224 :INFO : test_e2e :Add button is clicked
+2021-03-27 15:35:37,827 :INFO : test_e2e :Create Board button is clicked
+2021-03-27 15:35:41,871 :INFO : test_e2e :Title for new board is entered
+2021-03-27 15:35:45,077 :INFO : test_e2e :New Board is created
+2021-03-27 15:35:50,124 :INFO : test_e2e :4 new lists are created
+2021-03-27 15:36:17,911 :INFO : test_e2e :4 cards are created
+2021-03-27 15:36:29,275 :INFO : getCardNames :Card Name:Card 1
+2021-03-27 15:36:29,293 :INFO : getCardNames :Card Name:Card 2
+2021-03-27 15:36:29,314 :INFO : getCardNames :Card Name:Card 3
+2021-03-27 15:36:29,332 :INFO : getCardNames :Card Name:Card 4
+2021-03-27 15:36:39,524 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-27 15:36:49,753 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-27 15:36:59,918 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-27 15:37:22,724 :INFO : test_e2e :Logout is clicked
+2021-03-27 15:37:33,280 :INFO : test_e2e :........................................Test Case Completed..............................................

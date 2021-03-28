@@ -692,3 +692,306 @@
 2021-03-27 15:02:37,999 :INFO : test_e2e :Add button is clicked
 2021-03-27 15:02:41,627 :INFO : test_e2e :Create Board button is clicked
 2021-03-27 15:02:49,038 :INFO : test_e2e :Title for new board is entered
+2021-03-27 17:23:27,206 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 17:23:32,893 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 17:23:33,680 :INFO : test_e2e :Email is entered
+2021-03-27 17:25:07,964 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 17:25:12,163 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 17:25:12,972 :INFO : test_e2e :Email is entered
+2021-03-27 17:31:53,678 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 17:31:56,705 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 17:31:58,092 :INFO : test_e2e :Email is entered
+2021-03-27 21:11:03,065 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 21:11:08,207 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 21:11:09,645 :INFO : test_e2e :Email is entered
+2021-03-27 21:11:24,680 :INFO : test_e2e :Correct Password is entered
+2021-03-27 21:11:29,177 :INFO : test_e2e :Login button is clicked
+2021-03-27 21:11:43,711 :INFO : test_e2e :Add button is clicked
+2021-03-27 21:11:47,259 :INFO : test_e2e :Create Board button is clicked
+2021-03-27 21:11:51,059 :INFO : test_e2e :Title for new board is entered
+2021-03-27 21:11:54,208 :INFO : test_e2e :New Board is created
+2021-03-27 21:11:59,242 :INFO : test_e2e :4 new lists are created
+2021-03-27 21:12:27,151 :INFO : test_e2e :4 cards are created
+2021-03-27 21:12:38,381 :INFO : getCardNames :Card Name:Card 1
+2021-03-27 21:12:38,395 :INFO : getCardNames :Card Name:Card 2
+2021-03-27 21:12:38,411 :INFO : getCardNames :Card Name:Card 3
+2021-03-27 21:12:38,426 :INFO : getCardNames :Card Name:Card 4
+2021-03-27 21:12:48,578 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-27 21:12:58,752 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-27 21:13:08,874 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-27 21:13:28,900 :INFO : test_e2e :Logout is clicked
+2021-03-27 21:13:31,315 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-27 21:13:44,092 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 21:13:44,092 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 21:13:46,227 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 21:13:46,227 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 21:13:46,515 :INFO : test_e2e :Email is entered
+2021-03-27 21:13:46,515 :INFO : test_e2e :Email is entered
+2021-03-27 21:14:44,646 :INFO : test_e2e :Correct Password is entered
+2021-03-27 21:14:44,646 :INFO : test_e2e :Correct Password is entered
+2021-03-27 21:14:48,233 :INFO : test_e2e :Login button is clicked
+2021-03-27 21:14:48,233 :INFO : test_e2e :Login button is clicked
+2021-03-27 21:14:55,594 :INFO : test_e2e :Add button is clicked
+2021-03-27 21:14:55,594 :INFO : test_e2e :Add button is clicked
+2021-03-27 21:14:59,071 :INFO : test_e2e :Create Board button is clicked
+2021-03-27 21:14:59,071 :INFO : test_e2e :Create Board button is clicked
+2021-03-27 21:15:02,780 :INFO : test_e2e :Title for new board is entered
+2021-03-27 21:15:02,780 :INFO : test_e2e :Title for new board is entered
+2021-03-27 21:15:05,942 :INFO : test_e2e :New Board is created
+2021-03-27 21:15:05,942 :INFO : test_e2e :New Board is created
+2021-03-27 21:15:10,998 :INFO : test_e2e :4 new lists are created
+2021-03-27 21:15:10,998 :INFO : test_e2e :4 new lists are created
+2021-03-27 21:15:38,651 :INFO : test_e2e :4 cards are created
+2021-03-27 21:15:38,651 :INFO : test_e2e :4 cards are created
+2021-03-27 21:15:49,923 :INFO : getCardNames :Card Name:Card 1
+2021-03-27 21:15:49,923 :INFO : getCardNames :Card Name:Card 1
+2021-03-27 21:15:49,938 :INFO : getCardNames :Card Name:Card 2
+2021-03-27 21:15:49,938 :INFO : getCardNames :Card Name:Card 2
+2021-03-27 21:15:49,960 :INFO : getCardNames :Card Name:Card 3
+2021-03-27 21:15:49,960 :INFO : getCardNames :Card Name:Card 3
+2021-03-27 21:15:49,976 :INFO : getCardNames :Card Name:Card 4
+2021-03-27 21:15:49,976 :INFO : getCardNames :Card Name:Card 4
+2021-03-27 21:16:00,074 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-27 21:16:00,074 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-27 21:16:10,198 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-27 21:16:10,198 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-27 21:16:20,338 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-27 21:16:20,338 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-27 21:16:39,593 :INFO : test_e2e :Logout is clicked
+2021-03-27 21:16:39,593 :INFO : test_e2e :Logout is clicked
+2021-03-27 21:16:40,914 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-27 21:16:40,914 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-27 21:16:53,402 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 21:16:53,402 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 21:16:53,402 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-27 21:16:55,417 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 21:16:55,417 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 21:16:55,417 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-27 21:16:55,713 :INFO : test_e2e :Email is entered
+2021-03-27 21:16:55,713 :INFO : test_e2e :Email is entered
+2021-03-27 21:16:55,713 :INFO : test_e2e :Email is entered
+2021-03-27 21:16:58,980 :INFO : test_e2e :Correct Password is entered
+2021-03-27 21:16:58,980 :INFO : test_e2e :Correct Password is entered
+2021-03-27 21:16:58,980 :INFO : test_e2e :Correct Password is entered
+2021-03-27 21:17:02,471 :INFO : test_e2e :Login button is clicked
+2021-03-27 21:17:02,471 :INFO : test_e2e :Login button is clicked
+2021-03-27 21:17:02,471 :INFO : test_e2e :Login button is clicked
+2021-03-27 21:17:09,018 :INFO : test_e2e :Add button is clicked
+2021-03-27 21:17:09,018 :INFO : test_e2e :Add button is clicked
+2021-03-27 21:17:09,018 :INFO : test_e2e :Add button is clicked
+2021-03-27 21:17:12,539 :INFO : test_e2e :Create Board button is clicked
+2021-03-27 21:17:12,539 :INFO : test_e2e :Create Board button is clicked
+2021-03-27 21:17:12,539 :INFO : test_e2e :Create Board button is clicked
+2021-03-27 21:17:16,242 :INFO : test_e2e :Title for new board is entered
+2021-03-27 21:17:16,242 :INFO : test_e2e :Title for new board is entered
+2021-03-27 21:17:16,242 :INFO : test_e2e :Title for new board is entered
+2021-03-27 21:17:19,408 :INFO : test_e2e :New Board is created
+2021-03-27 21:17:19,408 :INFO : test_e2e :New Board is created
+2021-03-27 21:17:19,408 :INFO : test_e2e :New Board is created
+2021-03-27 21:17:24,440 :INFO : test_e2e :4 new lists are created
+2021-03-27 21:17:24,440 :INFO : test_e2e :4 new lists are created
+2021-03-27 21:17:24,440 :INFO : test_e2e :4 new lists are created
+2021-03-27 21:17:52,111 :INFO : test_e2e :4 cards are created
+2021-03-27 21:17:52,111 :INFO : test_e2e :4 cards are created
+2021-03-27 21:17:52,111 :INFO : test_e2e :4 cards are created
+2021-03-27 21:18:03,350 :INFO : getCardNames :Card Name:Card 1
+2021-03-27 21:18:03,350 :INFO : getCardNames :Card Name:Card 1
+2021-03-27 21:18:03,350 :INFO : getCardNames :Card Name:Card 1
+2021-03-27 21:18:03,365 :INFO : getCardNames :Card Name:Card 2
+2021-03-27 21:18:03,365 :INFO : getCardNames :Card Name:Card 2
+2021-03-27 21:18:03,365 :INFO : getCardNames :Card Name:Card 2
+2021-03-27 21:18:03,381 :INFO : getCardNames :Card Name:Card 3
+2021-03-27 21:18:03,381 :INFO : getCardNames :Card Name:Card 3
+2021-03-27 21:18:03,381 :INFO : getCardNames :Card Name:Card 3
+2021-03-27 21:18:03,396 :INFO : getCardNames :Card Name:Card 4
+2021-03-27 21:18:03,396 :INFO : getCardNames :Card Name:Card 4
+2021-03-27 21:18:03,396 :INFO : getCardNames :Card Name:Card 4
+2021-03-27 21:18:13,529 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-27 21:18:13,529 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-27 21:18:13,529 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-27 21:18:23,636 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-27 21:18:23,636 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-27 21:18:23,636 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-27 21:18:33,719 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-27 21:18:33,719 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-27 21:18:33,719 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-27 21:18:53,819 :INFO : test_e2e :Logout is clicked
+2021-03-27 21:18:53,819 :INFO : test_e2e :Logout is clicked
+2021-03-27 21:18:53,819 :INFO : test_e2e :Logout is clicked
+2021-03-27 21:19:01,514 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-27 21:19:01,514 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-27 21:19:01,514 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-28 10:54:01,584 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 10:54:05,586 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 10:54:07,362 :INFO : test_e2e :Email is entered
+2021-03-28 10:54:14,478 :INFO : test_e2e :Correct Password is entered
+2021-03-28 10:54:18,066 :INFO : test_e2e :Login button is clicked
+2021-03-28 10:54:36,838 :INFO : test_e2e :Add button is clicked
+2021-03-28 10:54:40,333 :INFO : test_e2e :Create Board button is clicked
+2021-03-28 10:54:44,108 :INFO : test_e2e :Title for new board is entered
+2021-03-28 10:54:47,291 :INFO : test_e2e :New Board is created
+2021-03-28 10:54:52,447 :INFO : test_e2e :4 new lists are created
+2021-03-28 10:55:20,430 :INFO : test_e2e :4 cards are created
+2021-03-28 10:55:31,977 :INFO : getCardNames :Card Name:Card 1
+2021-03-28 10:55:31,993 :INFO : getCardNames :Card Name:Card 2
+2021-03-28 10:55:32,010 :INFO : getCardNames :Card Name:Card 3
+2021-03-28 10:55:32,027 :INFO : getCardNames :Card Name:Card 4
+2021-03-28 10:55:42,219 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-28 10:55:52,440 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-28 10:56:02,562 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-28 10:56:23,369 :INFO : test_e2e :Logout is clicked
+2021-03-28 10:56:31,295 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-28 10:56:39,174 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 10:56:39,174 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 10:56:41,523 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 10:56:41,523 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 10:56:41,838 :INFO : test_e2e :Email is entered
+2021-03-28 10:56:41,838 :INFO : test_e2e :Email is entered
+2021-03-28 10:56:45,296 :INFO : test_e2e :Correct Password is entered
+2021-03-28 10:56:45,296 :INFO : test_e2e :Correct Password is entered
+2021-03-28 10:56:48,798 :INFO : test_e2e :Login button is clicked
+2021-03-28 10:56:48,798 :INFO : test_e2e :Login button is clicked
+2021-03-28 10:56:56,691 :INFO : test_e2e :Add button is clicked
+2021-03-28 10:56:56,691 :INFO : test_e2e :Add button is clicked
+2021-03-28 10:57:00,306 :INFO : test_e2e :Create Board button is clicked
+2021-03-28 10:57:00,306 :INFO : test_e2e :Create Board button is clicked
+2021-03-28 10:57:04,000 :INFO : test_e2e :Title for new board is entered
+2021-03-28 10:57:04,000 :INFO : test_e2e :Title for new board is entered
+2021-03-28 10:57:07,155 :INFO : test_e2e :New Board is created
+2021-03-28 10:57:07,155 :INFO : test_e2e :New Board is created
+2021-03-28 10:57:12,209 :INFO : test_e2e :4 new lists are created
+2021-03-28 10:57:12,209 :INFO : test_e2e :4 new lists are created
+2021-03-28 10:57:40,048 :INFO : test_e2e :4 cards are created
+2021-03-28 10:57:40,048 :INFO : test_e2e :4 cards are created
+2021-03-28 10:57:51,400 :INFO : getCardNames :Card Name:Card 1
+2021-03-28 10:57:51,400 :INFO : getCardNames :Card Name:Card 1
+2021-03-28 10:57:51,419 :INFO : getCardNames :Card Name:Card 2
+2021-03-28 10:57:51,419 :INFO : getCardNames :Card Name:Card 2
+2021-03-28 10:57:51,439 :INFO : getCardNames :Card Name:Card 3
+2021-03-28 10:57:51,439 :INFO : getCardNames :Card Name:Card 3
+2021-03-28 10:57:51,456 :INFO : getCardNames :Card Name:Card 4
+2021-03-28 10:57:51,456 :INFO : getCardNames :Card Name:Card 4
+2021-03-28 10:58:01,648 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-28 10:58:01,648 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-28 10:58:11,854 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-28 10:58:11,854 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-28 10:58:21,906 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-28 10:58:21,906 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-28 10:58:42,060 :INFO : test_e2e :Logout is clicked
+2021-03-28 10:58:42,060 :INFO : test_e2e :Logout is clicked
+2021-03-28 10:58:49,421 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-28 10:58:49,421 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-28 10:58:56,995 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 10:58:56,995 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 10:58:56,995 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 10:58:59,303 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 10:58:59,303 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 10:58:59,303 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 10:58:59,607 :INFO : test_e2e :Email is entered
+2021-03-28 10:58:59,607 :INFO : test_e2e :Email is entered
+2021-03-28 10:58:59,607 :INFO : test_e2e :Email is entered
+2021-03-28 10:59:03,288 :INFO : test_e2e :Correct Password is entered
+2021-03-28 10:59:03,288 :INFO : test_e2e :Correct Password is entered
+2021-03-28 10:59:03,288 :INFO : test_e2e :Correct Password is entered
+2021-03-28 10:59:06,884 :INFO : test_e2e :Login button is clicked
+2021-03-28 10:59:06,884 :INFO : test_e2e :Login button is clicked
+2021-03-28 10:59:06,884 :INFO : test_e2e :Login button is clicked
+2021-03-28 10:59:13,837 :INFO : test_e2e :Add button is clicked
+2021-03-28 10:59:13,837 :INFO : test_e2e :Add button is clicked
+2021-03-28 10:59:13,837 :INFO : test_e2e :Add button is clicked
+2021-03-28 10:59:17,369 :INFO : test_e2e :Create Board button is clicked
+2021-03-28 10:59:17,369 :INFO : test_e2e :Create Board button is clicked
+2021-03-28 10:59:17,369 :INFO : test_e2e :Create Board button is clicked
+2021-03-28 10:59:21,137 :INFO : test_e2e :Title for new board is entered
+2021-03-28 10:59:21,137 :INFO : test_e2e :Title for new board is entered
+2021-03-28 10:59:21,137 :INFO : test_e2e :Title for new board is entered
+2021-03-28 10:59:24,286 :INFO : test_e2e :New Board is created
+2021-03-28 10:59:24,286 :INFO : test_e2e :New Board is created
+2021-03-28 10:59:24,286 :INFO : test_e2e :New Board is created
+2021-03-28 10:59:29,327 :INFO : test_e2e :4 new lists are created
+2021-03-28 10:59:29,327 :INFO : test_e2e :4 new lists are created
+2021-03-28 10:59:29,327 :INFO : test_e2e :4 new lists are created
+2021-03-28 10:59:57,017 :INFO : test_e2e :4 cards are created
+2021-03-28 10:59:57,017 :INFO : test_e2e :4 cards are created
+2021-03-28 10:59:57,017 :INFO : test_e2e :4 cards are created
+2021-03-28 11:00:09,143 :INFO : getCardNames :Card Name:Card 1
+2021-03-28 11:00:09,143 :INFO : getCardNames :Card Name:Card 1
+2021-03-28 11:00:09,143 :INFO : getCardNames :Card Name:Card 1
+2021-03-28 11:00:09,164 :INFO : getCardNames :Card Name:Card 2
+2021-03-28 11:00:09,164 :INFO : getCardNames :Card Name:Card 2
+2021-03-28 11:00:09,164 :INFO : getCardNames :Card Name:Card 2
+2021-03-28 11:00:09,184 :INFO : getCardNames :Card Name:Card 3
+2021-03-28 11:00:09,184 :INFO : getCardNames :Card Name:Card 3
+2021-03-28 11:00:09,184 :INFO : getCardNames :Card Name:Card 3
+2021-03-28 11:00:09,204 :INFO : getCardNames :Card Name:Card 4
+2021-03-28 11:00:09,204 :INFO : getCardNames :Card Name:Card 4
+2021-03-28 11:00:09,204 :INFO : getCardNames :Card Name:Card 4
+2021-03-28 11:00:19,448 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-28 11:00:19,448 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-28 11:00:19,448 :INFO : card2MoveToInProgress :Card 2 is moved to In Progress
+2021-03-28 11:00:29,620 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-28 11:00:29,620 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-28 11:00:29,620 :INFO : card3MoveToQA :Card 3 is moved to QA
+2021-03-28 11:00:39,766 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-28 11:00:39,766 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-28 11:00:39,766 :INFO : card2MoveToQA :Card 2 is moved to QA
+2021-03-28 11:00:59,553 :INFO : test_e2e :Logout is clicked
+2021-03-28 11:00:59,553 :INFO : test_e2e :Logout is clicked
+2021-03-28 11:00:59,553 :INFO : test_e2e :Logout is clicked
+2021-03-28 11:01:00,810 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-28 11:01:00,810 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-28 11:01:00,810 :INFO : test_e2e :........................................Test Case Completed..............................................
+2021-03-28 11:06:00,129 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 11:06:03,599 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 11:06:04,560 :INFO : test_e2e :Email is entered
+2021-03-28 11:06:11,929 :INFO : test_e2e :Correct Password is entered
+2021-03-28 11:06:15,506 :INFO : test_e2e :Login button is clicked
+2021-03-28 11:06:18,986 :INFO : clickAddButton :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id='header-create-menu-button']"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-28 11:06:18,986 :INFO : test_e2e :Add button is clicked
+2021-03-28 11:06:35,926 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 11:06:35,926 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 11:06:38,281 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 11:06:38,281 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 11:06:38,630 :INFO : test_e2e :Email is entered
+2021-03-28 11:06:38,630 :INFO : test_e2e :Email is entered
+2021-03-28 11:06:42,606 :INFO : test_e2e :Correct Password is entered
+2021-03-28 11:06:42,606 :INFO : test_e2e :Correct Password is entered
+2021-03-28 11:06:46,148 :INFO : test_e2e :Login button is clicked
+2021-03-28 11:06:46,148 :INFO : test_e2e :Login button is clicked
+2021-03-28 11:06:49,525 :INFO : clickAddButton :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id='header-create-menu-button']"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-28 11:06:49,525 :INFO : clickAddButton :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id='header-create-menu-button']"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-28 11:06:49,526 :INFO : test_e2e :Add button is clicked
+2021-03-28 11:06:49,526 :INFO : test_e2e :Add button is clicked
+2021-03-28 11:07:01,881 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 11:07:01,881 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 11:07:01,881 :INFO : test_e2e :........................................Test Case Started..............................................
+2021-03-28 11:07:04,318 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 11:07:04,318 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 11:07:04,318 :INFO : test_e2e :Title of the ApplicationLog in to Trello
+2021-03-28 11:07:04,683 :INFO : test_e2e :Email is entered
+2021-03-28 11:07:04,683 :INFO : test_e2e :Email is entered
+2021-03-28 11:07:04,683 :INFO : test_e2e :Email is entered
+2021-03-28 11:07:08,163 :INFO : test_e2e :Correct Password is entered
+2021-03-28 11:07:08,163 :INFO : test_e2e :Correct Password is entered
+2021-03-28 11:07:08,163 :INFO : test_e2e :Correct Password is entered
+2021-03-28 11:07:11,712 :INFO : test_e2e :Login button is clicked
+2021-03-28 11:07:11,712 :INFO : test_e2e :Login button is clicked
+2021-03-28 11:07:11,712 :INFO : test_e2e :Login button is clicked
+2021-03-28 11:07:15,101 :INFO : clickAddButton :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id='header-create-menu-button']"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-28 11:07:15,101 :INFO : clickAddButton :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id='header-create-menu-button']"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-28 11:07:15,101 :INFO : clickAddButton :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id='header-create-menu-button']"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-28 11:07:15,102 :INFO : test_e2e :Add button is clicked
+2021-03-28 11:07:15,102 :INFO : test_e2e :Add button is clicked
+2021-03-28 11:07:15,102 :INFO : test_e2e :Add button is clicked
