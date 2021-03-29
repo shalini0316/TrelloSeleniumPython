@@ -20,3 +20,8 @@ Open Card 1 and Assign it to the current logged in user and then leave a comment
 2)Openpyxl- to work with excel operations
 3)easygui- to implement hidden password authentication
 4)python-docx- to copy gnerated screenshots into word file
+
+## TO RUN THE PROJECT
+
+py.test --browser_name chrome --html=report.html
+
